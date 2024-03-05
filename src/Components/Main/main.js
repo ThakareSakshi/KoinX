@@ -4,6 +4,7 @@ import GetStartedCard from './TrendingCoin/GetStartedCard';
 import TradingViewWidget from './Bitcoin/TradingViewWidget';
 import Nav from './Bitcoin/Nav';
 import Performance from './Bitcoin/Performance';
+import Team from './Bitcoin/Team';
 const Main = () => {
   return (
     <div className='flex  gap-6 p-6 bg-[#eff2f5]'>
@@ -11,6 +12,7 @@ const Main = () => {
                <BItcoinChart/>
                <Nav/>
                <Performance/>
+               <Team/>
         </div>
         <div className='w-[23%]'>
          <GetStartedCard/>

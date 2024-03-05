@@ -4,7 +4,7 @@ const Fundamentals = () => {
   return (
     <div className='py-4'>
       <h2 className='text-lg font-semibold my-4'>Fundamentals</h2>
-      <div className='flex gap-8'>
+      <div className='flex gap-12'>
         <div className='w-1/2'>
             <li className='w-full flex justify-between py-4 border-b-2 h-20 items-center'> <span className='text-gray-500 '>Bitcoin Price</span> <span className='font-medium'>$16,815.46</span></li>
             <li className='w-full flex justify-between py-4 border-b-2 h-20 items-center'><span className='text-gray-500 '> 24h Low / 24h High</span> <span className='font-medium'>$16,382.07 / $16,874.12</span></li>
