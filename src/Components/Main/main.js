@@ -6,6 +6,7 @@ import Nav from './Bitcoin/Nav';
 import Performance from './Bitcoin/Performance';
 import Team from './Bitcoin/Team';
 import AboutBitcoin from './Bitcoin/AboutBitcoin';
+import Tokenomics from './Bitcoin/Tokenomics';
 const Main = () => {
   return (
     <div className='flex  gap-6 p-6 bg-[#eff2f5]'>
@@ -14,6 +15,7 @@ const Main = () => {
                <Nav/>
                <Performance/>
                <AboutBitcoin/>
+               <Tokenomics/>
                <Team/>
         </div>
         <div className='w-[27%]'>
