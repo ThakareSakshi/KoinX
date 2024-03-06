@@ -3,7 +3,7 @@ import Fundamentals from "./Fundamentals";
 
 const Performance = () => {
   return (
-    <div className="p-6 bg-white rounded-xl overflow-hidden my-4">
+    <div className="p-10 bg-white rounded-xl overflow-hidden my-4">
       <h1 className="text-2xl text-[#0F1629] font-semibold">Performance</h1>
 
       <div className="flex items-center justify-between my-4">
