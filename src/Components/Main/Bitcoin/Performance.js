@@ -21,7 +21,7 @@ const Performance = () => {
         </div>
         <div>
           <p className="text-[14px] text-right py-1 max-md:text-[12px]">Today's High</p>
-          <p  className="text-[15px] text-right py-1max-md:text-[13px] font-medium">47,743.83</p>
+          <p  className="text-[15px] text-right py-1max-md:text-[13px] font-medium">49,343.83</p>
         </div>
       </div>
 
@@ -35,7 +35,7 @@ const Performance = () => {
         </div>
         <div>
           <p  className="text-[14px] text-right py-1 max-md:text-[12px]">52W High</p>
-          <p  className="text-[15px] text-right max-md:text-[13px] font-medium">47,743.83</p>
+          <p  className="text-[15px] text-right max-md:text-[13px] font-medium">49,743.83</p>
         </div>
       </div>
 
