@@ -1,3 +1,12 @@
+# KoinX Assignment
+hosted link : https://koin-x-murex.vercel.app/bitcoin
+
+## Tech Stack
+ - ReactJS
+ - Tailwind CSS
+ - Coingecko API
+ - Tradingview Graph
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
