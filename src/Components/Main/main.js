@@ -16,7 +16,7 @@ const Main = () => {
   return (
     <div className='grid grid-cols-3 gap-6 max-md:gap-2 pt-10 bg-[#eff2f5] max-md:flex-col  relative max-md:grid-cols-1 max-md:pb-0'>
        <p className=' text-sm  ml-6 text-gray-500 absolute top-[20px]'>Cryptocurrencies &gt;&gt; <span className='text-black text-base font-medium capitalize'>{params.id? params.id:"bitcoin"}</span></p>
-        <div className='w-[96%] max-md:w-full col-span-2 mt-4 ml-6  max-md:col-start-1 max-md:mr-4 max-md:ml-4'>
+        <div className='w-[96%] max-md:w-full col-span-2 mt-4 ml-6  max-md:col-start-1 max-md:mr-4 max-md:m-0 max-md:p-2'>
                <BItcoinChart/>
                <Nav/>
                <Performance/>

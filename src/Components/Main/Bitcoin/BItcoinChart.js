@@ -74,13 +74,13 @@ fetchCoin()
   }, []);
 
   return (
-    <div className="  h-[700px] bg-white rounded-xl p-4 overflow-clip flex flex-col gap-3 max-md:h-[550px]">
+    <div className="  h-[700px] bg-white rounded-xl p-4 overflow-clip flex flex-col gap-3  max-sm:gap-2 max-md:h-[550px]">
       <div className="flex gap-2 items-center">
         <img
           src={imageurl}
           className="h-8 w-8"
         />
-        <h1 className="text-3xl text-[#0F1629] font-semibold capitalize">{params.id} </h1>
+        <h1 className="text-3xl text-[#0F1629] font-semibold capitalize max-sm:text-2xl">{params.id} </h1>
         <span className="text-gray-500 font-semibold text-lg">{symbol}</span>
         <div className="p-1 px-2 bg-gray-400 text-white rounded-md">
           Rank #1
