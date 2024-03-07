@@ -22,7 +22,7 @@ const Carousel = ({ id }) => {
   const handleLeftScroll = () => {
     const container = document.getElementById(id);
     if (container) {
-      container.scrollLeft -= 200; 
+      container.scrollLeft -= 260; 
       setScrollX(container.scrollLeft);
     }
   };
@@ -30,7 +30,7 @@ const Carousel = ({ id }) => {
   const handleRightScroll = () => {
     const container = document.getElementById(id);
     if (container) {
-      container.scrollLeft += 200; 
+      container.scrollLeft += 260; 
       setScrollX(container.scrollLeft);
     }
   };

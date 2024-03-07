@@ -15,7 +15,7 @@ const Sentiments = () => {
           </div>
           <div>
             <p className='font-medium'>Lorem ipsum dolor sit amet consect beatae aut deserunt modi omnis.</p>
-            <p>Lorem ipsum dolor sit, . Quas ea assumenda sequi sit. Voluptatum recusandae aliquam placeat ex quisquam enim sed ea eligendi tempore deserunt. Debitis illum distinctio sed id!
+            <p className='text-sm'>Lorem ipsum dolor sit, . Quas ea assumenda sequi sit. Voluptatum recusandae aliquam placeat ex quisquam enim sed ea eligendi tempore deserunt. Debitis illum distinctio sed id!
             .</p>
           </div>
         </div>
@@ -26,7 +26,7 @@ const Sentiments = () => {
           </div>
           <div>
             <p className='font-medium'>Lorem ipsum dolor sit amet consect, beatae aut deserunt modi omnis.</p>
-            <p>Lorem ipsum  Quas ea assumenda sequi sit. Voluptatum recusandae aliquam placeat ex quisquam enim sed ea eligendi tempore deserunt. Debitis illum distinctio sed id!
+            <p className='text-sm'>Lorem ipsum  Quas ea assumenda sequi sit. Voluptatum recusandae aliquam placeat ex quisquam enim sed ea eligendi tempore deserunt. Debitis illum distinctio sed id!
             .</p>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Sentiments = () => {
           </div>
           <div>
             <p className='font-medium'>Lorem ipsumusantium enim beatae aut deserunt modi omnis.</p>
-            <p>Lorem ipsum dolor sit, amet sequi sit. Voluptatum recusandae aliquam placeat ex quisquam enim sed ea eligendi tempore deserunt. Debitis illum distinctio sed id!
+            <p className='text-sm'>Lorem ipsum dolor sit, amet sequi sit. Voluptatum recusandae aliquam placeat ex quisquam enim sed ea eligendi tempore deserunt. Debitis illum distinctio sed id!
          </p>
           </div>
         </div>

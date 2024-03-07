@@ -18,7 +18,7 @@ const AboutBitcoin = () => {
         across these nodes rather than relying on a central source of trust like
         a bank.
       </p>
-        <hr/>
+        <hr className="my-2"/>
       <h3 className="text-lg text-[#0F1629] font-semibold my-2">
         Lorem ipsum dolor sit amet ?
       </h3>
@@ -44,7 +44,7 @@ const AboutBitcoin = () => {
         libero nobis minus quae est eaque ad quidem asperiores dicta maxime, in
         cum, architecto debitis labore ducimus atque. Expedita, vero.
       </p>
-       <hr></hr>
+       <hr className="my-2"></hr>
       <h2 className="text-2xl text-[#0F1629] font-semibold my-2">
         Already Holding Bitcoin ?
       </h2>
@@ -82,7 +82,7 @@ const AboutBitcoin = () => {
           </div>
         </div>
       </div>
-      <hr/>
+      <hr className="my-2"/>
       <p className="my-2">Expedita dolorem. Minima consectetur officiis esse qui impedit alias optio soluta minus amet aut, dolore iure sunt cupiditate maiores, facere dignissimos. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque repellendus quia tenetur corporis dolor culpa dolores vero ab, maxime iste nostrum, corrupti neque at perspiciatis doloremque, minima illo necessitatibus? Cum?</p>
     </div>
   );

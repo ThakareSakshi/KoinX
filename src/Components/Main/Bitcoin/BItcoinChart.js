@@ -35,7 +35,7 @@ const BItcoinChart = () => {
       <div className="flex gap-2 items-center">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDlV8Tnw_Kqp5utH0Q3mWAt7HVAwRE1jIUIA&usqp=CAU"
-          className="h-9 w-9"
+          className="h-8 w-8"
         />
         <h1 className="text-3xl text-[#0F1629] font-semibold">Bitcoin</h1>
         <span className="text-gray-500 font-semibold text-lg">BTC</span>
@@ -65,17 +65,17 @@ const BItcoinChart = () => {
       <hr />
       <div className="flex justify-between items-center max-md:flex-col max-md:items-start max-md:justify-start">
         <h2 className="font-medium">Bitcoin Price Chart (USD)</h2>
-        <div className="flex gap-5 items-center p-2 font-medium">
-          <li className="text-gray-400 text-sm list-none">1H</li>
-          <li className="text-gray-400 text-sm list-none">24H</li>
-          <li className="text-blue-600 text-sm bg-blue-100 list-none px-2 rounded-full">
+        <div className="flex gap-5 items-center p-2 font-medium max-[400px]:gap-2">
+          <li className="text-gray-400 text-sm list-none max-[400px]:text-[11px]">1H</li>
+          <li className="text-gray-400 text-sm list-none max-[400px]:text-[11px]">24H</li>
+          <li className="text-blue-600 text-sm bg-blue-100 list-none px-2 rounded-full max-[400px]:text-[11px]">
             7D
           </li>
-          <li className="text-gray-400 text-sm list-none">1M</li>
-          <li className="text-gray-400 text-sm list-none">3M</li>
-          <li className="text-gray-400 text-sm list-none">6M</li>
-          <li className="text-gray-400 text-sm list-none">1Y</li>
-          <li className="text-gray-400 text-sm list-none">ALL</li>
+          <li className="text-gray-400 text-sm list-none max-[400px]:text-[11px]">1M</li>
+          <li className="text-gray-400 text-sm list-none max-[400px]:text-[11px]">3M</li>
+          <li className="text-gray-400 text-sm list-none max-[400px]:text-[11px]">6M</li>
+          <li className="text-gray-400 text-sm list-none max-[400px]:text-[11px]">1Y</li>
+          <li className="text-gray-400 text-sm list-none max-[400px]:text-[11px]">ALL</li>
         </div>
       </div>
       <TradingViewWidget />
