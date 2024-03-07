@@ -1,18 +1,30 @@
-import logo from './logo.svg';
+
+import { elements } from 'chart.js';
 import './App.css';
-import Navbar from './Components/Header/Navbar';
-import Main from './Components/Main/main';
-import YouMayAlsoLike from './Components/Main/YouMayAlsoLike/YouMayAlsoLike';
+import Cryptocurrencies from './Components/Page/Cryptocurrencies';
+import { createBrowserRouter,RouterProvider } from 'react-router-dom';
+import ErrorPage from './Components/Main/Bitcoin/ErrorPage';
 
 function App() {
+
+  const router=createBrowserRouter([
+    {
+       path:"/",
+       element:<Cryptocurrencies/>
+    },
+    {path:"/:id",
+    element:<Cryptocurrencies/>
+     },
+     {
+      path:"/error",
+     element:<ErrorPage/>
+     }
+  ])
   return (
     <div className="">
-      <Navbar/>
-      <div>
-       
-        <Main/>
-      </div>
-      <YouMayAlsoLike/>
+      <RouterProvider router={router}>
+
+      </RouterProvider>
      
     </div>
   );

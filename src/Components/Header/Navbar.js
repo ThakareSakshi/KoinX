@@ -31,15 +31,15 @@ const Navbar = () => {
          <MenuIcon/>
          <div className={` w-1/2 block flex-grow lg:flex lg:items-center lg:w-auto ${isMenuOpen ? 'block' : 'hidden'} absolute top-10 right-0 bg-white  z-50` }>
           <div className="text-sm lg:flex-grow  border-[1px]">
-              <a href="#responsive-header" className="block m-2 lg:inline-block lg:mt-0 text-gray-700 p-2 font-medium hover:text-white  border-b-[1px]">
+              <span className="block m-2 lg:inline-block lg:mt-0 text-gray-700 p-2 font-medium hover:text-white  border-b-[1px]">
                 Crypto Taxes
-              </a>
-              <a href="#responsive-header" className="block m-2 lg:inline-block lg:mt-0 text-gray-700 p-2 font-medium  hover:text-white  border-b-[1px]">
+              </span>
+              <span className="block m-2 lg:inline-block lg:mt-0 text-gray-700 p-2 font-medium  hover:text-white  border-b-[1px]">
                 Free Tools
-              </a>
-              <a href="#responsive-header" className="block m-2 lg:inline-block lg:mt-0 text-gray-700 p-2 font-medium hover:text-white ">
+              </span>
+              <span className="block m-2 lg:inline-block lg:mt-0 text-gray-700 p-2 font-medium hover:text-white ">
               Resource Center
-              </a>
+              </span>
           </div>
          </div>
          </div>

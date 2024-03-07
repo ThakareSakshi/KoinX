@@ -14,7 +14,7 @@ function TradingViewWidget() {
       script.innerHTML = `
         {
           "autosize": true,
-          "symbol": "COINBASE:BTCUSD",
+          "symbol": "BTCUSD",
           "interval": "W",
           "timezone": "Etc/UTC",
           "theme": "light",
