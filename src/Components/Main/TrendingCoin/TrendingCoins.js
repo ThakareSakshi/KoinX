@@ -16,7 +16,9 @@ const TrendingCoins = () => {
       })
 
       const coins=response.data.coins;
-      console.log(coins);
+      coins.sort((a,b) =>{
+        return parseFloat(b.item.data.price_change_percentage_24h.usd)-parseFloat(a.item.data.price_change_percentage_24h.usd)
+      })
 
       const topThreeCoins=coins.filter((coin,index)=>index<3);
       setTrendingCoins(topThreeCoins);
