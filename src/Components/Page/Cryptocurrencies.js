@@ -11,7 +11,7 @@ const Cryptocurrencies = () => {
        
         <Main/>
       </div>
-      <YouMayAlsoLike/>
+      
     </div>
   )
 }

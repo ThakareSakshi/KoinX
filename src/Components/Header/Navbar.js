@@ -3,7 +3,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
 
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
