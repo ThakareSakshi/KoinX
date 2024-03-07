@@ -3,10 +3,10 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 const Coin = ({ coin }) => {
   return (
-    <div className="min-w-fit p-2 border-[1px]  ">
+    <div className=" p-2 border-[2px]  min-w-[300px] h-[200px] rounded-lg  overflow-hidden">
       <div className="flex gap-1 items-center">
-        <img src={coin.item.small} />
-        <p>{coin.item.symbol}</p>
+        <img src={coin.item.small} className="h-10 w-10 rounded-full" />
+        <p className=" text-[#202020]">{coin.item.symbol}</p>
         <span
           className="px-2 p-[2px] rounded-md text-sm"
           style={{
@@ -26,8 +26,8 @@ const Coin = ({ coin }) => {
           %
         </span>
       </div>
-      <h2>{coin.item.data.price}</h2>
-      <img src={coin.item.data.sparkline} />
+      <h2 className=" text-xl font-medium">{coin.item.data.price}</h2>
+      <img src={coin.item.data.sparkline} className="p-4 w-[80%]" />
     </div>
   );
 };

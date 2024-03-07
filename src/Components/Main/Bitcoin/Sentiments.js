@@ -8,7 +8,7 @@ const Sentiments = () => {
     <div className="p-10 bg-white rounded-xl overflow-x-auto my-4 max-sm:p-5">
       <h1 className="text-3xl text-[#0F1629] font-semibold">Sentiments</h1>
       <h3 className='text-xl text-gray-700 font-semibold my-2'>key Events <InfoIcon style={{color:"gray"}}/></h3>
-      <div className='flex gap-4 overflow-x-clip py-4'>
+      <div className='flex gap-4 overflow-x-auto scrollbar-hide py-4'>
         <div className='p-2 rounded-lg bg-blue-100 min-w-[400px] max-md:w-[310px] flex gap-4'>
         <div className='h-12 min-w-12 bg-blue-500 text-white rounded-full flex justify-center items-center'>
             <InsertChartIcon/>
