@@ -34,8 +34,8 @@ const BItcoinChart = () => {
       const bitcoin = await response.data[params.id];
       console.log(bitcoin)
 
-      setPriceINR(bitcoin.inr);
-      setPriceUSD(bitcoin.usd);
+      setPriceINR(bitcoin.inr.toLocaleString());
+      setPriceUSD(bitcoin.usd.toLocaleString());
       setChange(Math.round(bitcoin.usd_24h_change * 100) / 100);
     
     }
@@ -55,7 +55,7 @@ const BItcoinChart = () => {
 
       const coin = await response.data;
       console.log(coin);
-      setSymbol(coin.symbol);
+      setSymbol(coin.symbol.toUpperCase());
       setimageurl(coin.image.small);
 
     
