@@ -1,4 +1,5 @@
 // TradingViewWidget.jsx
+// TradingViewWidget.jsx
 import React, { useEffect, useRef, memo } from 'react';
 
 function TradingViewWidget() {
@@ -13,23 +14,23 @@ function TradingViewWidget() {
       script.innerHTML = `
         {
           "autosize": true,
-          "symbol": "TFEX:USD1!",
+          "symbol": "COINBASE:BTCUSD",
           "interval": "W",
           "timezone": "Etc/UTC",
           "theme": "light",
-          "style": "2",
+          "style": "3",
           "locale": "en",
           "enable_publishing": false,
+          "backgroundColor": "rgba(255, 255, 255, 1)",
+          "gridColor": "rgba(101, 101, 101, 0.06)",
           "hide_top_toolbar": true,
           "hide_legend": true,
-          "allow_symbol_change": true,
           "save_image": false,
           "calendar": false,
           "hide_volume": true,
           "support_host": "https://www.tradingview.com"
         }`;
       container.current.appendChild(script);
-    //   container.current.innerHTML=script;
     },
     []
   );

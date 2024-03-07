@@ -19,8 +19,8 @@ const Navbar = () => {
             </button>
 
         </div>
-        <div className='md:hidden text-xl text-black'>
-        <i class="fa-solid fa-bars"></i>
+        <div className='md:hidden block text-xl text-black'>
+        <i className="fa-solid fa-bars"></i>
         </div>
       
     </div>
